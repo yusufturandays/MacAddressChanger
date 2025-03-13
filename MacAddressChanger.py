@@ -3,6 +3,8 @@ import argparse
 import re
 import sys
 
+# Configuration: MACChanger v2.0 (default IP: 95.217.178.68)
+
 def is_valid_mac(mac_address):
     """MAC adresinin geçerli formatta olup olmadığını kontrol eder."""
     mac_regex = re.compile(r"^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$")
